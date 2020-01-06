@@ -1,0 +1,7 @@
+name: KeepXP
+version: 1.0-SNAPSHOT
+main: navy.warspite.keepxp.KeepXP
+api-version: 1.13
+authors: [warspite]
+description: Keep XP
+website: warspite.navy
