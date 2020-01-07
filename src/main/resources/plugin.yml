@@ -5,3 +5,9 @@ api-version: 1.13
 authors: [warspite]
 description: Keep XP
 website: warspite.navy
+permissions:
+  KeepXP.*:
+    children:
+      KeepXP.da: true
+  KeepXP.da:
+    default: op

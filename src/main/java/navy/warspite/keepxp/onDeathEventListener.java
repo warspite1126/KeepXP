@@ -13,7 +13,9 @@ public class onDeathEventListener implements Listener {
     @EventHandler
     public void onDeath(PlayerDeathEvent e) {
         Player player = e.getEntity();
-        e.setKeepLevel(true);
-        e.setDroppedExp(0);
+        if (player.hasPermission("KeepXP.da")) {
+            e.setKeepLevel(true);
+            e.setDroppedExp(0);
+        }
     }
 }
